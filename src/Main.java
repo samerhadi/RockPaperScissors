@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+        String s;
         while (true) {
             String[] rps = {"r", "p", "s"};
             String computerMove = rps[new Random().nextInt(rps.length)];
